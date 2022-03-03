@@ -12215,11 +12215,123 @@ main {
   width: calc(16.6666666667% - 20px);
   background-color: transparent;
   margin-left: 20px;
-  margin-top: 10px;
   cursor: pointer;
 }
 
 .card .text-box {
   color: white;
+}
+
+.button-container {
+  width: 100%;
+}
+
+.button-container button {
+  background-color: #107ae7;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+.banner {
+  color: white;
+  background-color: #107ae7;
+  top: -30px;
+  font-weight: bold;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.container-blue {
+  background-color: #107ae7;
+  height: 25vh;
+  width: 100%;
+}
+
+.container-blue ul {
+  height: 100%;
+}
+
+.container-blue ul li {
+  cursor: pointer;
+}
+
+.container-blue ul li img {
+  width: 80px;
+  height: 80px;
+}
+
+.container-blue ul li span {
+  margin-left: 5px;
+  color: white;
+}
+
+.container-footer-start {
+  height: 50vh;
+  width: 100%;
+  background: url("/img/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.container-footer-start .bg-logo {
+  height: 50%;
+}
+
+.container-footer-start .bg-logo img {
+  width: 30%;
+  height: 100%;
+  right: 20%;
+  bottom: -5%;
+}
+
+.container-footer-start .footer-nav div {
+  margin: 15px;
+}
+
+.container-footer-start .footer-nav div h3,
+.container-footer-start .footer-nav div .h3 {
+  color: white;
+  margin: 5px 0;
+}
+
+.container-footer-start .footer-nav div ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container-footer-start .footer-nav div ul li {
+  color: grey;
+  font-size: 12px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.container-footer-start .footer-nav div ul li:hover {
+  color: white;
+}
+
+.container-footer-end {
+  background-color: #161616;
+  height: 20vh;
+  width: 100%;
+}
+
+.container-footer-end button {
+  color: white;
+  background-color: #191919;
+  padding: 15px;
+  border: 2px solid #107ae7;
+}
+
+.container-footer-end .socials h3,
+.container-footer-end .socials .h3 {
+  color: #107ae7;
+  margin-right: 10px;
+}
+
+.container-footer-end .socials img {
+  padding: 0 5px;
 }
 

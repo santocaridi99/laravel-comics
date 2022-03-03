@@ -12,3 +12,23 @@ main{
         color: white;
     }
 }
+.button-container{
+    width: 100%;
+    button{
+        background-color:#107ae7;
+        color: white;
+        border: none;
+        padding: 10px 40px;
+        font-weight: bold;
+    }
+}
+
+ // banner
+ .banner{
+    color:white;
+    background-color: #107ae7;
+    top: -30px;
+    font-weight: bold;
+    padding: 20px 50px;
+    font-size: 30px;
+}

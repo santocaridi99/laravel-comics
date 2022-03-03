@@ -1,0 +1,19 @@
+.container-blue{
+    background-color: #107ae7;
+    height: 25vh;
+    width: 100%;
+    ul{
+        height: 100%;
+        li{
+            cursor: pointer;
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            span{
+                margin-left: 5px;
+                color:white;
+            }
+        }
+    }
+}

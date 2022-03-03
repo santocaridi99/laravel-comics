@@ -17,6 +17,7 @@
     <div class="jumbotron"></div>
     <main>
         @yield('content')
+        @yield('secondary')
     </main>
     <footer>
         {{-- includo il footer --}}
