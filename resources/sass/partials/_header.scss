@@ -1,5 +1,31 @@
-header{
-    h1{
-        color: red;
-    }
+// div additional
+.additional{
+    // bg custom
+    height: 5vh;
+    background-color: #107ae7;
+}
+
+// classe header non la sezione header
+.header{
+  height: 20vh;
+//   logo della navbar
+  .logo{
+      width: 60px;
+      height: 60px;
+  }
+//   ul custom , ho preferito assegnare valori nel css invece di dare classi bootsrap
+// per comodità
+  ul{
+      li{
+          list-style: none;
+          padding: 0px 10px;
+          a{
+              text-decoration: none;
+              color: black;
+              &:hover{
+                  color: #107ae7;
+              }
+          }
+      }
+  }
 }

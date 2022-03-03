@@ -12173,8 +12173,31 @@ fieldset:disabled .btn {
   }
 }
 
-header h1,
-header .h1 {
-  color: red;
+.additional {
+  height: 5vh;
+  background-color: #107ae7;
+}
+
+.header {
+  height: 20vh;
+}
+
+.header .logo {
+  width: 60px;
+  height: 60px;
+}
+
+.header ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header ul li a:hover {
+  color: #107ae7;
 }
 
