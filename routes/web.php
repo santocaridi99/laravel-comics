@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    // prendo dati con config da comics
+    $data = config('comics');
+    // ritorno array associativo con chiave data che corrisponde a $data
+    return view('home',compact('data'));
 })->name('home');

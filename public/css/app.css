@@ -12207,3 +12207,19 @@ fieldset:disabled .btn {
   background-size: cover;
 }
 
+main {
+  background-color: #191919;
+}
+
+.card {
+  width: calc(16.6666666667% - 20px);
+  background-color: transparent;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card .text-box {
+  color: white;
+}
+

@@ -1,0 +1,14 @@
+main{
+    background-color: #191919;
+}
+
+// custom card
+.card{
+    width: calc(100% / 6 - 20px);
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+    .text-box{
+        color: white;
+    }
+}
