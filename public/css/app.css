@@ -12179,7 +12179,7 @@ fieldset:disabled .btn {
 }
 
 .header {
-  height: 20vh;
+  height: 12vh;
 }
 
 .header .logo {
@@ -12199,5 +12199,11 @@ fieldset:disabled .btn {
 
 .header ul li a:hover {
   color: #107ae7;
+}
+
+.jumbotron {
+  height: 50vh;
+  background: url("/img/jumbotron.jpg") no-repeat;
+  background-size: cover;
 }
 

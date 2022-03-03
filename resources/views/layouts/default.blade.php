@@ -14,6 +14,7 @@
         {{-- includo la navbar --}}
         @include('partials/navbar')
     </header>
+    <div class="jumbotron"></div>
     <main>
         @yield('test')
     </main>
